@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OETC 2026: Heart AR Experience</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            justify-content: center; 
+            height: 100vh; 
+            margin: 0; 
+            background-color: #ffffff;
+            color: #333;
+        }
+        .container { text-align: center; padding: 20px; }
+        
+        /* The AR Button Styling */
+        .ar-button {
+            display: inline-block;
+            padding: 16px 32px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            background-color: #e91e63; /* Heart Red */
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(233, 30, 99, 0.3);
+            transition: all 0.2s ease;
+        }
+        .ar-button:active { transform: scale(0.95); }
+        
+        h1 { margin-bottom: 10px; }
+        .instruction { color: #666; font-size: 0.9rem; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>OETC 2026</h1>
+        <p>STEAM AR Activity</p>
+
+        <a rel="ar" class="ar-button" href="https://raw.githubusercontent.com/TMPenwell/babylonPractice2026Feb/main/oetc2026Asset%202heart.usdz">
+            Click to View Heart in AR
+        </a>
+
+        <div class="instruction">
+            <p><strong>Step 1:</strong> Tap the red button above.</p>
+            <p><strong>Step 2:</strong> If prompted, tap 'Open'.</p>
+            <p><strong>Step 3:</strong> Point your camera at a flat surface!</p>
+        </div>
+    </div>
+
+</body>
+</html>
